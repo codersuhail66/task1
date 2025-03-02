@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-ZAIN JEWELLERS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #716a6a;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+            background-color: #eecad2;
+            color: #070801;
+            flex-wrap: wrap;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        .store-title h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+        .store-title h4 {
+            font-style: italic;
+            margin: 0;
+        }
+        .search-box input {
+            padding: 8px;
+            width: 250px;
+            border-radius: 5px;
+            border: none;
+        }
+        .big-title {
+            font-size: 42px;
+            font-weight: bold;
+            color: white;
+            transition: 0.3s;
+            text-align: center;
+        }
+        .big-title:hover {
+            color: rgb(59, 5, 23);
+            text-shadow: 0px 0px 10px rgba(255, 255, 0, 0.7);
+        }
+        .express-btn {
+            background: #3d0502;
+            padding: 12px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            transition: 0.3s;
+            display: inline-block;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .express-btn:hover {
+            background: red;
+            color: yellow;
+            box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.8);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #cbb5c8;
+            padding: 10px;
+        }
+        nav a {
+            color: rgb(19, 2, 2);
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+        }
+        .product {
+            border: 2px solid #0a0709;
+            margin: 10px;
+            padding: 20px;
+            width: 220px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 2px 2px 10px rgba(160, 101, 101, 0.1);
+            transition: 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .social-icons {
+            margin-top: 15px;
+            text-align: center;
+        }
+        .social-icons a {
+            color: rgb(9, 3, 79);
+            font-size: 16px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .mens-jewelry {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .jewelry-btn {
+            background: #730303;
+            padding: 10px 15px;
+            border-radius: 8px;
+            color: rgb(251, 251, 250);
+            text-decoration: none;
+            font-weight: bold;  
+            transition: 0.3s;
+            display: inline-block;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+         }
+
+        .jewelry-btn:hover {
+            background: rgb(212, 244, 86);
+            color: rgb(8, 8, 1);
+            box-shadow: 0px 0px 15px rgba(129, 19, 2, 0.8);
+        }
+
+        button {
+            background: #3d0502;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: red;
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="logo">
+            <div class="store-title">
+                <h1>ZAIN'S JEWELS</h1>
+                <h4>~World's Favorite Jewellery~</h4>
+            </div>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="🔍 Search for jewelry...">
+        </div>
+        
+        <div class="big-title">AL-ZAIN JEWELLERS</div>
+        <a href="express-delivery.html" class="express-btn">🚀 Express Delivery <br> <span style="font-size: 14px; color: yellow;">🔥 Hurry Up!</span></a>
+
+        <a href="mens-essentials.html" class="express-btn" style="margin: top 20px; display: block;">👑 Men's Essentials <br> 
+            <span style="font-size: 14px; color: gold;">⚜️💎 Gold & Silver Collection</span>
+        </a>
+
+        <div class="mens-jewelry">
+            <a href="rings.html" class="jewelry-btn">💍 Rings</a>
+            <a href="chains.html" class="jewelry-btn">⛓️ Chains</a>
+            <a href="bracelets.html" class="jewelry-btn">🔗 Bracelets</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/Shaik Suhail" target="_self"<i>📘 Facebook</i></a> 
+            <a href="#"><i>📷zain'sjewelINSTA.com</i></a> <br>
+            <a href="#"><i>🐦zain'sjewelTWITTER.com</i></a> 
+            <a href="#"><i>📌zain'sjewelPINTEREST.COM</i></a> 
+            
+        </div>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+    </nav>
+    <div class="container">
+        <div class="product">
+            <img src="gold.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 1</h2>
+            <h3 style="color: black;">22 carrats gold with white stones|20 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men ring for special occasions to make them more classy..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹75,000.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold1.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 2</h2>
+            <h3 style="color: black;">22 carrats gold with royal design|30 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men bracelite for a rich look on marriage accasions or events..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹1,87,000.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold2.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 3</h2>
+            <h3 style="color: black;">22 carrats gold with unique design|35 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men bracelite for a rich look on marriage accssions or events..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹2,62,500.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold6.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 4</h2>
+            <h3 style="color: black;"> pure silver with chain lock design|30 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men neck chaine for a formal look..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹2,850.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold4.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 5</h2>
+            <h3 style="color: black;">22 carrats gold with royal arabic design|35 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men ring for a classy and rich look..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹2,62,500.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold5.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 6</h2>
+            <h3 style="color: black;">22 carrats gold with royal and unique lock and rounded design|45 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men neck chain for a rich look on marriage accasions or events..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹3,37,500.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold7.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 7</h2>
+            <h3 style="color: black;">22 carrats gold with cross lock chain design|20 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men bracelite for a rich look on marriage accasions, formal events..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹1,50,000.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold8.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 8</h2>
+            <h3 style="color: black;">22 carrats gold with blue pebble stone of cross link design|30 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men bracelite for a rich look on marriage accasions or events..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>1,87,000.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold9.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 9</h2>
+            <h3 style="color: black;">22 carrats gold with snaky smooth design|35 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men chain for a rich look on marriage accasions or events..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹2,60,500.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gold10.jpg" alt="zain's_jewel">
+            <h2>zain's_jewel 10</h2><h3 style="color: black;">22 carrats gold with white shiny stone of royal design|30 grams</h3>
+            <h4 style="color: black; font-style: italic;"> Men bracelite for a rich look on marriage accasions or events..</h4>
+            <h5 style="color: rgb(180, 11, 11);">50% off on making charge</h5>
+            <p>₹1,87,000.00</p><br>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <footer>
+        <p> visit our store</p>
+        &copy 2025 @MyOnlineStore.com<br>
+    
+    </footer>
+</body>
+</html>

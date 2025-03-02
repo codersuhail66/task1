@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Rings Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+            color: #3d0502;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .ring-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px;
+            width: 250px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+        .ring-card:hover {
+            transform: scale(1.05);
+        }
+        .ring-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .ring-card h3 {
+            color: #3d0502;
+            margin: 10px 0;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background: #3d0502;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: red;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>💍 Men's Rings Collection 💍</h1>
+
+    <div class="container">
+        <div class="ring-card">
+            <img src="gold-ring1.jpg" alt="Gold Ring">
+            <h3>22K Gold Ring</h3>
+            <p>Elegant gold ring with a royal finish.</p>
+            <p class="price">₹75,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="ring-card">
+            <img src="gold-ring2.jpg" alt="Gold Ring">
+            <h3>Diamond Gold Ring</h3>
+            <p>22K gold ring with sparkling diamonds.</p>
+            <p class="price">₹1,20,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="ring-card">
+            <img src="gold-ring3.jpg" alt="Gold Ring">
+            <h3>Engraved Gold Ring</h3>
+            <p>Handcrafted design with Arabic engravings.</p>
+            <p class="price">₹95,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="ring-card">
+            <img src="gold-ring4.jpg" alt="Gold Ring">
+            <h3>Platinum Men's Ring</h3>
+            <p>Stylish platinum ring for a modern look.</p>
+            <p class="price">₹1,50,000</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+</html>
